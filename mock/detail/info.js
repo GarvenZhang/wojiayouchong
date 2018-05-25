@@ -1,8 +1,8 @@
 module.exports = {
-  img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016201645858-1342445625.png',
-  title: '天下第一锅',
+  img: 'http://m.uchong315.com/Public/Uploads/user_pet/2018-03-23/big_1521812363814.jpg',
+  title: '泰迪 1公1母 4个月零12天 宠物级',
   star: 4,
-  price: '88',
-  subTitle: '重庆 & 四川 麻辣火锅',
-  desc: '营业时间 11:00 - 21:00 <br> 电话订购 11:00 - 19:00 <br> 网络订购 11:00 - 19:00'
+  price: '1600',
+  subTitle: '温暖先生宠物连锁',
+  desc: '宠多多保障 购宠时使用担保交易 ，宠多多将为你的交易全程提供保障'
 }

@@ -3,56 +3,65 @@ var userName = 'Lu仔酱';
 // 朋友圈页面的数据
 var data = [{
   user: {
-    name: '阳和',
-    avatar: './img/avatar2.png'
+    name: '美丽的大脸盘子',
+    avatar: 'http://p2.ycw.com/201705/25/c94e67a1d660e30f29679a2030aaa466_s100'
   }, 
   content: {
     type: 0, // 多图片消息
-    text: '华仔真棒，新的一年继续努力！',
-    pics: ['./img/reward1.png', './img/reward2.png', './img/reward3.png', './img/reward4.png'],
+    text: '这是一张，美丽而娇羞的大脸盘咋~',
+    pics: [
+      'http://p2.ycw.com/201705/25/3e0056917f721f6afc4124dba5942be4_s100',
+      'http://p2.ycw.com/201705/25/7532e8ccfa915ea91ce1f3e750099b96_s100',
+      'http://p2.ycw.com/201705/25/6f6c43841752675cb9769405999729fd_s100',
+      'http://p2.ycw.com/201705/25/4b9074bf8912c528bfa6756370221f66_s100',
+      'http://p2.ycw.com/201705/25/9976b1a6920830a84dc0e41f066c40da_s100',
+      'http://p2.ycw.com/201705/25/1923545f54687a480077612ca14ff205_s100'
+    ],
     share: {},
     timeString: '3分钟前',
   }, 
   reply: {
     hasLiked: false,
-    likes: ['Guo封面', '源小神'],
+    likes: ['二狗子', '大哈子'],
     comments: [{
-      author: 'Guo封面',
-      text: '你也喜欢华仔哈！！！'
+      author: '二狗子',
+      text: '肥猫，520！！！'
     },{
-      author: '喵仔zsy',
-      text: '华仔实至名归哈'
+      author: '喵仔',
+      text: '你吃什么长大的请问？'
     }]
   }
 }, {
   user: {
-    name: '伟科大人',
-    avatar: './img/avatar3.png'
+    name: '二狗子',
+    avatar: 'http://p2.ycw.com/201706/08/3b8fef0d8f5e22335eb55602fec5e6a9_s300'
   },
   content: {
     type: 1, // 分享消息
-    text: '全面读书日',
+    text: '羡慕啊，我上辈子是投错胎了怎么地，遇到这么个铲屎官！',
     pics: [],
     share: {
-      pic: './img/transition-hover.jpg',
-      text: '飘洋过海来看你'
+      pic: 'http://p2.ycw.com/201706/14/8fbe189f0ae64cefa019d132d78b362e',
+      text: '明明前途无量的警犬，却偏偏走了另一种狗生'
     },
     timeString: '50分钟前',
   },
   reply: {
     hasLiked: false,
-    likes: ['阳和'],
+    likes: ['二狗子'],
     comments: []
   }
 }, {
   user: {
-    name: '深圳周润发',
-    avatar: './img/avatar4.png'
+    name: '朵朵',
+    avatar: 'http://p2.ycw.com/201706/02/a24a00a9bab21082a1f7f369fa8715ed_s100'
   },
   content: {
     type: 2, // 单图片消息
-    text: '很好的色彩',
-    pics: ['./img/k-2.jpg'],
+    text: 'We are 伐木累！',
+    pics: [
+      'http://p2.ycw.com/201706/02/5f24fae9d55a9a2acae69249884be927_ss600'
+    ],
     share: {},
     timeString: '一小时前'
   },
@@ -63,12 +72,12 @@ var data = [{
   }
 }, {
   user: {
-    name: '喵仔zsy',
-    avatar: './img/avatar5.png'
+    name: '大哈子',
+    avatar: 'http://p2.ycw.com/201705/31/8c9a067312717f2a728fb4c1819560f3_s300'
   },
   content: {
     type: 3, // 无图片消息
-    text: '以后咖啡豆不敢浪费了',
+    text: '那个sei，，铲屎的，你儿子好烦你知道吗？？',
     pics: [],
     share: {},
     timeString: '2个小时前',

@@ -1,32 +1,38 @@
 module.exports = [
   {
-    title: '暑假5折',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191639092-2000037796.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '哈士奇 3个月零16天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-04-12/sm_1523531337342.jpg',
+    price: '2500',
+    link: '#'
   },
   {
-    title: '特价出国',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191648124-298129318.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '金毛 3个月零20天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-04-12/sm_1523530833616.jpg',
+    price: '2000',
+    link: '#'
   },
   {
-    title: '亮亮车',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191653983-1962772127.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '法国斗牛犬 5个月零6天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-03-28/sm_1522218259210.jpg',
+    price: '5000',
+    link: '#'
   },
   {
-    title: '学钢琴',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191700420-1584459466.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '哈士奇 4个月零12天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-03-23/sm_1521812467554.jpg',
+    price: '2500',
+    link: '#'
   },
   {
-    title: '电影',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191706733-367929553.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '泰迪 4个月零12天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-03-23/sm_1521812363814.jpg',
+    price: '1600',
+    link: '#'
   },
   {
-    title: '旅游热线',
-    img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191713186-495002222.png',
-    link: 'http://www.imooc.com/wap/index'
+    title: '哈士奇 4个月零17天',
+    img: 'http://www.uchong315.com/Public/Uploads/user_pet/2018-03-22/sm_1521701246776.jpg',
+    price: '2300',
+    link: '#'
   }
 ]
