@@ -16,6 +16,35 @@
   background: url(http://p1.ycw.com/share/201706/15/501fb3398f82612dba76c0ce537da1d9_s600) no-repeat;
   background-size: cover;
 }
+.header .btn-control {
+  position: relative;
+}
+.header .icon {
+  position: absolute;
+  top: 115px;
+  right: 30px;
+  /* 通过设置 font-size 来改变图标大小 */
+  width: 30px;
+  height: 20px;
+  font: 20px/1 '';
+  text-align: center;
+  box-shadow: 0 0 10px 0 #000;
+  background-color: #fff;
+  /* 图标和文字相邻时，垂直对齐 */
+  vertical-align: -0.15em;
+  /* 通过设置 color 来改变 SVG 的颜色/fill */
+  fill: currentColor;
+  /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+     normalize.css 中也包含这行 */
+  overflow: hidden;
+}
+.control-popup {
+  position: absolute;
+  right: 60px;
+  top: 135px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
 .header-user {
   display: flex;
   margin-top: -52px;
@@ -271,7 +300,7 @@
 /* 输入框 */
 .commenter {
   position: fixed;
-  bottom: 0;
+  bottom: 45px;
   width: 100%;
   height: 50px;
   display: flex;
@@ -309,4 +338,8 @@
 .commenter button.z-work {
   background: #3BA80D;
   color: #fff;
+}
+
+.hide {
+  display: none;
 }

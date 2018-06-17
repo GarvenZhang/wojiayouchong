@@ -2,36 +2,76 @@
 var userName = 'Lu仔酱';
 // 朋友圈页面的数据
 var data = [{
-  user: {
-    name: '美丽的大脸盘子',
-    avatar: 'http://p2.ycw.com/201705/25/c94e67a1d660e30f29679a2030aaa466_s100'
-  }, 
-  content: {
-    type: 0, // 多图片消息
-    text: '这是一张，美丽而娇羞的大脸盘咋~',
-    pics: [
-      'http://p2.ycw.com/201705/25/3e0056917f721f6afc4124dba5942be4_s100',
-      'http://p2.ycw.com/201705/25/7532e8ccfa915ea91ce1f3e750099b96_s100',
-      'http://p2.ycw.com/201705/25/6f6c43841752675cb9769405999729fd_s100',
-      'http://p2.ycw.com/201705/25/4b9074bf8912c528bfa6756370221f66_s100',
-      'http://p2.ycw.com/201705/25/9976b1a6920830a84dc0e41f066c40da_s100',
-      'http://p2.ycw.com/201705/25/1923545f54687a480077612ca14ff205_s100'
-    ],
-    share: {},
-    timeString: '3分钟前',
-  }, 
-  reply: {
-    hasLiked: false,
-    likes: ['二狗子', '大哈子'],
-    comments: [{
-      author: '二狗子',
-      text: '肥猫，520！！！'
-    },{
-      author: '喵仔',
-      text: '你吃什么长大的请问？'
-    }]
-  }
-}, {
+    user: {
+      name: '今日推送',
+      avatar: 'https://images.uiiiuiii.com/wp-content/uploads/2017/10/itz-logo20171006-1-15.jpg'
+    },
+    content: {
+      type: 1, // 分享消息
+      text: '',
+      pics: [],
+      share: {
+        pic: 'https://img2.epetbar.com/nowater/2017-07/24/10/2a486a29c36dc714bad225f5f63f8af8.png?x-oss-process=style/waterfall&$1=200',
+        text: '有史以来最萌的猫狗大战下周一开始啦'
+      },
+      timeString: '50分钟前',
+    },
+    reply: {
+      hasLiked: false,
+      likes: ['二狗子'],
+      comments: []
+    }
+  }, {
+    user: {
+      name: '今日推送',
+      avatar: 'https://images.uiiiuiii.com/wp-content/uploads/2017/10/itz-logo20171006-1-15.jpg'
+    },
+    content: {
+      type: 1, // 分享消息
+      text: '',
+      pics: [],
+      share: {
+        pic: 'https://img1.epetbar.com/2017-08/16/13/4968c78aed008bd0bdb0deb754af5551.jpg@!300w-b',
+        text: '【大减价】德国原装进口 珍宝JBL Novo Bits七彩神仙及挑嘴鱼颗粒饲料 250ml/110g'
+      },
+      timeString: '20分钟前',
+    },
+    reply: {
+      hasLiked: false,
+      likes: ['二狗子'],
+      comments: []
+    }
+  },{
+    user: {
+      name: '美丽的大脸盘子',
+      avatar: 'http://p2.ycw.com/201705/25/c94e67a1d660e30f29679a2030aaa466_s100'
+    },
+    content: {
+      type: 0, // 多图片消息
+      text: '这是一张，美丽而娇羞的大脸盘咋~',
+      pics: [
+        'http://p2.ycw.com/201705/25/3e0056917f721f6afc4124dba5942be4_s100',
+        'http://p2.ycw.com/201705/25/7532e8ccfa915ea91ce1f3e750099b96_s100',
+        'http://p2.ycw.com/201705/25/6f6c43841752675cb9769405999729fd_s100',
+        'http://p2.ycw.com/201705/25/4b9074bf8912c528bfa6756370221f66_s100',
+        'http://p2.ycw.com/201705/25/9976b1a6920830a84dc0e41f066c40da_s100',
+        'http://p2.ycw.com/201705/25/1923545f54687a480077612ca14ff205_s100'
+      ],
+      share: {},
+      timeString: '3分钟前',
+    },
+    reply: {
+      hasLiked: false,
+      likes: ['二狗子', '大哈子'],
+      comments: [{
+        author: '二狗子',
+        text: '肥猫，520！！！'
+      },{
+        author: '喵仔',
+        text: '你吃什么长大的请问？'
+      }]
+    }
+  }, {
   user: {
     name: '二狗子',
     avatar: 'http://p2.ycw.com/201706/08/3b8fef0d8f5e22335eb55602fec5e6a9_s300'
